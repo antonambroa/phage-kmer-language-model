@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Data and outputs
+data/
+checkpoints/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.fasta
+*.fa
+*.fna
+!examples/toy_sequences.fasta
+
+# Scheduler output
+*.out
+*.err
+slurm-*
